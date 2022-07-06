@@ -84,8 +84,8 @@ hr{
 /* donation section */
 
 .donate-section{
+	margin-top: 50px;
    width: 100%;
-   height: 100vh;
    display: flex;
    flex-direction: column;
    justify-content: center;
@@ -94,18 +94,18 @@ hr{
 }
 
 .donate-amount-list{
-	width: 765px;
+	width: 65%;
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-evenly;
 	margin: 20px 0;
 }
 .donate-amount{
 	list-style: none;
 	background-color: #f5f5f5;
 	color: #707070;
-	padding: 40px 20px;
+	padding: 35px 20px;
 	font-weight: 700;
-	font-size: 30px;
+	font-size: 1.5rem;
 	border-radius: 5px;
 	cursor: pointer;
 }
@@ -116,7 +116,7 @@ hr{
 	padding: 15px 35px;
 	text-align: center;
 	color: #707070;
-	margin: 30px 0;
+	margin: 40px 0;
 	outline: none;
 	border-radius: 5px;
 }
@@ -142,8 +142,7 @@ hr{
 	justify-content: space-between;
 }
 .plan-card{
-	width: 320px;
-	height: 293px;
+	width: 25%;
 	padding:25px;
 	border-radius: 10px;
 	margin: 20px 0;
@@ -205,13 +204,13 @@ hr{
 }
 .blog-card-img{
 	width: 100%;
-	height: 400px;
+	height: 60%;
 	border-radius: 10px 10px 0 10px;
 }
 .blog-card-descripe-area{
 	background-color: rgb(248, 248, 248);
 	display: flex;
-    width: 470px;
+    width: 80%;
 	padding: 15px;
     position: absolute;
 	right: 0;
