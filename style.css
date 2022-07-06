@@ -42,6 +42,7 @@ hr{
 	width: 100%;
 }
 #line {
+	text-align: center;
     width: 765px;
     height: 1px;
     background-color: #323232; 
@@ -89,6 +90,7 @@ hr{
    flex-direction: column;
    justify-content: center;
    align-items: center;
+   
 }
 
 .donate-amount-list{
@@ -127,8 +129,10 @@ hr{
 /* donate plan section */
 
 .donate-plan-section{
+	padding-top: 40px;
 	width: 100%;
 	margin-top: 40px;
+	border-top: 2px dashed gray;
 }
 
 .plan-card-area{
@@ -142,7 +146,7 @@ hr{
 	height: 293px;
 	padding:25px;
 	border-radius: 10px;
-	margin: 40px 0;
+	margin: 20px 0;
 }
 .plan-card-img{
 	margin-top: 35px;
@@ -177,9 +181,14 @@ hr{
 .card3{
 	background-color: rgba(255, 244, 214, 1);
 }
+
+
 /* blog-card-section */
+
 .blog-section{
+	padding-top: 40px;
 	margin-top: 80px;
+	border-top: 2px dashed gray;
 }
 .blog-card-area{
 	width: 90%;
@@ -191,7 +200,7 @@ hr{
 .blog-card{
 	margin-top: 50px;
 	width: 560px;
-	height: 580px;
+	height: 650px;
 	position: relative;
 }
 .blog-card-img{
@@ -235,6 +244,7 @@ hr{
 
 
 /* subscription section */
+
 .subscripe-section{
 	margin-top: 80px;
 	width: 100%;
@@ -243,6 +253,7 @@ hr{
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+	border-top: 2px dashed gray;
 }
 .subscripe-area{
     width: 809px ;
@@ -255,6 +266,7 @@ hr{
 }
 .subscripe-area input{
 	border: none;
+	color:#707070;
 	padding: 15px;
 	font-size: 18px;
 	background-color: #D9D9D9;
@@ -274,7 +286,10 @@ hr{
 	color: #fff;
 	font-size: 18px;
 }
+
+
 /* footer section */
+
 footer{
 	width: 100%;
 	height: 177px;
