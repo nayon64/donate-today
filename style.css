@@ -161,6 +161,8 @@ hr{
 	font-family: 'Poppins', sans-serif;
 	font-size: 16px;
 	font-weight: 400;
+	margin-top: 10px;
+	text-align: justify;
 }
 
 
@@ -175,10 +177,66 @@ hr{
 .card3{
 	background-color: rgba(255, 244, 214, 1);
 }
+/* blog-card-section */
+.blog-section{
+	margin-top: 80px;
+}
+.blog-card-area{
+	width: 90%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.blog-card{
+	margin-top: 50px;
+	width: 560px;
+	height: 580px;
+	position: relative;
+}
+.blog-card-img{
+	width: 100%;
+	height: 400px;
+	border-radius: 10px 10px 0 10px;
+}
+.blog-card-descripe-area{
+	background-color: rgb(248, 248, 248);
+	display: flex;
+    width: 470px;
+	padding: 15px;
+    position: absolute;
+	right: 0;
+	top: 330px;
+	border-radius: 10px 0 10px 10px;
+}
+.blog-publish-date{
+	margin-right: 10px;
+	text-align: center;
+	padding-top: 15px;
+	width: 280px;
+}
+.blog-publish-date h1{
+	font-size: 45px;
+	color: #FF5959;
+}
+.blog-title{
+	font-size: 25px;
+	font-weight: 600;
+}
+.blog-author{
+	margin: 10px 0 10px;
+	font-size: 16px;
+	font-weight: 400;
+}
+.author-name{
+	color: orange;
+	font-size: 18px;
+}
 
 
 /* subscription section */
 .subscripe-section{
+	margin-top: 80px;
 	width: 100%;
 	height: 80vh;
 	display: flex;
@@ -225,6 +283,7 @@ footer{
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+	margin-top: 40px;
 }
 footer h4{
 	font-size: 36px;
