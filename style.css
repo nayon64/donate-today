@@ -3,8 +3,37 @@
 	margin: 0;
 	font-family: 'Inter', sans-serif;
 }
-
-
+/* global section */
+.donate-link{
+	border: none;
+	margin-top: 25px;
+	background-color: #FF5959;
+	padding: 10px 20px;
+	border-radius: 5px;
+}
+.donate-link a{
+    text-decoration: none;
+	color: #fff;
+	font-size: 20px;
+	font-weight: 600;
+}
+.section-top{
+	width: 765px;
+	text-align: center;
+	margin: 0 auto;
+}
+.title{
+	color: #121212;
+	font-size: 45px;
+	font-weight: 700;
+}
+.about-descrip{
+	font-family: 'Poppins', sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	padding: 10px 0;
+	color: #707070;
+}
 /* banner section */
 
 .banner-section{
@@ -33,21 +62,9 @@
 	font-size: 18px;
 	font-weight: 400;
     padding: 0 50px;
-	margin: 25px 0;
+	margin: 35px 0;
 }
-.donate-link{
-	border: none;
-	margin-top: 25px;
-	font-weight: 600;
-	background-color: #FF5959;
-	padding: 10px 20px;
-	border-radius: 5px;
-}
-.donate-link a{
-	text-decoration: none;
-	color: white;
-	font-size: 20px;
-}
+
 
 /* donation section */
 
@@ -58,22 +75,7 @@
    justify-content: center;
    align-items: center;
 }
-.donate-detail{
-	width: 765px;
-	text-align: center;
-}
-.title{
-	color: #121212;
-	font-size: 45px;
-	font-weight: 700;
-}
-.donate-detail p{
-	font-family: 'Poppins', sans-serif;
-	font-size: 18px;
-	font-weight: 400;
-	padding: 15px 35px;
-	color: #707070;
-}
+
 .donate-amount-list{
 	display: flex;
 	justify-content: space-between;
@@ -92,12 +94,11 @@
 .other-amount{
 	font-family: 'Poppins', sans-serif;
 	font-size: 18px;
-	font-weight: 600;
-	padding: 15px;
+	font-weight: 400;
+	padding: 15px 35px;
 	text-align: center;
 	color: #707070;
-	border-radius: 10px;
-	margin: 20px 0;
+	margin: 30px 0;
 }
 .active{
 	background-color: #FFEEEE;
@@ -111,19 +112,7 @@
 	width: 100%;
 	margin-top: 40px;
 }
-.donate-plan-about{
-	width: 691px;
-	height: 180px;
-	text-align: center;
-	margin: 0 auto;
-}
-.about-descrip{
-	font-family: 'Poppins', sans-serif;
-	font-size: 18px;
-	font-weight: 400;
-	padding: 10px 0;
-	color: #707070;
-}
+
 .plan-card-area{
 	width: 90%;
 	margin: 0 auto;
@@ -135,7 +124,7 @@
 	height: 293px;
 	padding:25px;
 	border-radius: 10px;
-	margin-bottom: 40px;
+	margin: 40px 0;
 }
 .plan-card-img{
 	margin-top: 35px;
